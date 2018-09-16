@@ -42,16 +42,16 @@ $("#john").appendTo("#position-john");
 
 $("#daenerys").on("click",function(){
     console.log("daenerys")
-    $("#john").appendTo("#position-daenerys");
+    $("#daenerys").appendTo("#position-daenerys");
     })
 
     $("#white").on("click",function(){
         console.log("white")
-        $("#john").appendTo("#position-white");
+        $("#white").appendTo("#position-white");
         })
         $("#cersei").on("click",function(){
             console.log("cersei")
-            $("#john").appendTo("#position-cersei");
+            $("#cersei").appendTo("#position-cersei");
             })
 
 
